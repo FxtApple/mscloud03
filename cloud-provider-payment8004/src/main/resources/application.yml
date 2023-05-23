@@ -1,0 +1,8 @@
+server:
+  port: 8004
+
+springboot:
+  application:
+    name: cloud-provider-payment
+  cloud:
+    connect-string: 192.168.188.100:2181

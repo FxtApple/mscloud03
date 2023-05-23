@@ -39,4 +39,9 @@ public class PaymentController {
             return new CommonResult(444, "error", "插入新增记录失败");
         }
     }
+
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLb(){
+        return serverPort;
+    }
 }
